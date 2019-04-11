@@ -136,6 +136,10 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "invoke-injectable": true
+    "invoke-injectable": true,
+    "extends": [
+      "tslint:recommended",
+      "tslint-sonarts"
+    ]
   }
 }
