@@ -39,6 +39,11 @@ module.exports = function (config) {
         ],
       }
     },
-    singleRun: false
+    singleRun: false,
+    coverageIstanbulReporter: {
+      dir: require('path').join(__dirname, 'coverage'),
+      reports: ['html', 'lcovonly'],
+      fixWebpackSourcePaths: true
+    }
   });
 };

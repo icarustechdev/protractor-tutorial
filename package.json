@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-headless": "ng test --watch=false --browsers=ChromeHeadless"
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
+    "sonar": "sonar-scanner"
   },
   "private": true,
   "dependencies": {
@@ -34,7 +35,9 @@
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "allure-commandline": "^2.9.0",
     "codelyzer": "~3.2.0",
+    "jasmine-allure-reporter": "^1.0.2",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
@@ -44,6 +47,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "sonar-scanner": "^3.1.0",
     "ts-node": "~3.2.0",
     "tslint": "^5.7.0",
     "tslint-sonarts": "^1.9.0",
